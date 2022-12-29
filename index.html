@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script
+      src="https://kit.fontawesome.com/9ad1815c29.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Login</title>
+  </head>
+  <body>
+    <main>
+      <div class="container">
+        <div class="box-left">
+          <div class="text">
+            <h2>Hello!</h2>
+            <div class="linha"></div>
+            <h3>We were waiting for you!!</h3>
+          </div>
+          <img src="./images/robot.svg" alt="robot" />
+        </div>
+        <div class="box-right">
+          <h2>Login</h2>
+          <form action="" class="box-form">
+            <div class="box-input">
+              <label hidden for="username">Username</label>
+              <input
+                type="text"
+                name="username"
+                id="username"
+                placeholder="Username"
+                required
+              />
+              <span><i class="fa-solid fa-user"></i></span>
+            </div>
+            <div class="box-input">
+              <label hidden for="password">Password</label>
+              <input
+                type="password"
+                name="password"
+                placeholder="Password"
+                id="password"
+                required
+              />
+              <span><i class="fa-solid fa-lock"></i></span>
+            </div>
+            <div class="box-links">
+              <a href="">Forgot Username/Password?</a>
+              <a href="">Register</a>
+            </div>
+            <button>SingIn</button>
+            <div class="box-sociais">
+              <a href="">
+                <img
+                  id="google"
+                  src="./images/googleLogo.svg"
+                  alt="Logo Google"
+                />
+              </a>
+              <a href="">
+                <img
+                  id="facebook"
+                  src="./images/facebookLogo.svg"
+                  alt="Logo Facebook"
+                />
+              </a>
+              <a href="">
+                <img id="apple" src="./images/macLogo.svg" alt="Logo Apple" />
+              </a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
